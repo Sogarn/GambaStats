@@ -1,0 +1,1 @@
+Solved percentages of each potential outcome in the poker variant of WoW Gold Gambler addon
