@@ -82,7 +82,7 @@ while base_roll <= 99999:
 
 # output data
 total_count = 88889
-print("Poker gamba odds")
+print("Poker gamba odds:")
 print(f"Five of a kind: {five_kinds / total_count * 100:.2f}%")
 print(f"Four of a kind: {four_kinds / total_count * 100:.2f}%")
 print(f"Full house: {full_house / total_count * 100:.2f}%")
