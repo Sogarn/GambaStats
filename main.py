@@ -82,13 +82,14 @@ while base_roll <= 99999:
 
 # output data
 total_count = 88889
-print(f"Five of a kinds: {five_kinds / total_count * 100:.2f}%")
-print(f"Four of a kinds: {four_kinds / total_count * 100:.2f}%")
-print(f"Full houses: {full_house / total_count * 100:.2f}%")
-print(f"Straights: {straight / total_count * 100:.2f}%")
-print(f"Three of a kinds: {three_kinds / total_count * 100:.2f}%")
-print(f"Two pairs: {two_pair / total_count * 100:.2f}%")
-print(f"Pairs: {pair / total_count * 100:.2f}%")
+print("Poker gamba odds")
+print(f"Five of a kind: {five_kinds / total_count * 100:.2f}%")
+print(f"Four of a kind: {four_kinds / total_count * 100:.2f}%")
+print(f"Full house: {full_house / total_count * 100:.2f}%")
+print(f"Straight: {straight / total_count * 100:.2f}%")
+print(f"Three of a kind: {three_kinds / total_count * 100:.2f}%")
+print(f"Two pair: {two_pair / total_count * 100:.2f}%")
+print(f"Pair: {pair / total_count * 100:.2f}%")
 print(f"High card nine: {high_nine / total_count * 100:.2f}%")
 print(f"High card eight: {high_eight / total_count * 100:.2f}%")
 print(f"High card seven: {high_seven / total_count * 100:.2f}%")
